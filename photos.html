@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Photos — Stellar Divide</title>
+  <link rel="icon" type="image/jpg" href="icon-music.png">
+  <link rel="stylesheet" href="global.css" />
+  <link rel="stylesheet" href="photos.css" />
+</head>
+<body>
+  <header id="site-header"></header>
+  <div class="page-header">
+    <div class="grain"></div>
+    <p class="eyebrow">Gallery</p>
+    <h1>Photos</h1>
+  </div>
+  <main id="photos-main">
+    <div class="photo-filters">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="live">Live</button>
+      <button class="filter-btn" data-filter="studio">Studio</button>
+      <button class="filter-btn" data-filter="press">Press</button>
+    </div>
+    <div class="photo-grid" id="photo-grid">
+      <div class="pg-item large reveal" data-cat="live"><div class="pg-inner pg-1"><div class="pg-overlay"><span>Live — London 2024</span></div></div></div>
+      <div class="pg-item reveal" data-cat="studio"><div class="pg-inner pg-2"><div class="pg-overlay"><span>Studio — Reykjavik 2024</span></div></div></div>
+      <div class="pg-item reveal" data-cat="press"><div class="pg-inner pg-3"><div class="pg-overlay"><span>Press Shot 2025</span></div></div></div>
+      <div class="pg-item reveal" data-cat="live"><div class="pg-inner pg-4"><div class="pg-overlay"><span>Live — Berlin 2024</span></div></div></div>
+      <div class="pg-item tall reveal" data-cat="press"><div class="pg-inner pg-1"><div class="pg-overlay"><span>Press Shot — Dark Parallels</span></div></div></div>
+      <div class="pg-item reveal" data-cat="live"><div class="pg-inner pg-2"><div class="pg-overlay"><span>Live — Paris 2023</span></div></div></div>
+      <div class="pg-item reveal" data-cat="studio"><div class="pg-inner pg-3"><div class="pg-overlay"><span>Studio — Manchester 2018</span></div></div></div>
+      <div class="pg-item reveal" data-cat="live"><div class="pg-inner pg-4"><div class="pg-overlay"><span>Live — Amsterdam 2023</span></div></div></div>
+      <div class="pg-item reveal" data-cat="press"><div class="pg-inner pg-1"><div class="pg-overlay"><span>Press — Static Cathedral Era</span></div></div></div>
+    </div>
+  </main>
+  <footer id="site-footer"></footer>
+  <script src="layout.js"></script>
+  <script src="photos.js"></script>
+</body>
+</html>

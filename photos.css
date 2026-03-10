@@ -1,0 +1,133 @@
+.photo-filters {
+  display: flex;
+  padding: 0 56px;
+  border-bottom: 1px solid var(--border);
+  gap: 0;
+  overflow-x: auto;
+}
+
+.photo-filters::-webkit-scrollbar {
+  display: none;
+}
+
+.filter-btn {
+  padding: 18px 24px;
+  font-family: var(--font-body);
+  font-size: 0.54rem;
+  letter-spacing: 0.26em;
+  text-transform: uppercase;
+  color: var(--grey-2);
+  background: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: color var(--transition), border-color var(--transition);
+}
+
+.filter-btn:hover {
+  color: var(--white);
+}
+
+.filter-btn.active {
+  color: var(--white);
+  border-bottom-color: var(--white);
+}
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 260px;
+  gap: 3px;
+  padding: 3px;
+  background: #050505;
+}
+
+.pg-item {
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.pg-item.large {
+  grid-column: span 2;
+}
+
+.pg-item.tall  {
+  grid-row: span 2;
+}
+
+.pg-inner {
+  width: 100%; height: 100%;
+  transition: transform 0.5s ease;
+  position: relative;
+}
+
+.pg-item:hover .pg-inner {
+  transform: scale(1.04);
+}
+
+.pg-1 {
+  background: linear-gradient(135deg, #0c0c0c 0%, #1c1c1c 50%, #111 100%);
+}
+
+.pg-2 {
+  background: linear-gradient(160deg, #0f0f0f 0%, #1e1e1e 100%);
+}
+
+.pg-3 {
+  background: linear-gradient(110deg, #111 0%, #1a1a1a 100%);
+}
+
+.pg-4 {
+  background: linear-gradient(145deg, #0d0d0d 0%, #181818 100%);
+}
+
+.pg-overlay {
+  position: absolute; inset: 0;
+  display: flex;
+  align-items: flex-end;
+  padding: 18px 20px;
+  background: linear-gradient(to top, rgba(0,0,0,0.65), transparent);
+  opacity: 0;
+  transition: opacity var(--transition);
+}
+
+.pg-item:hover .pg-overlay {
+  opacity: 1;
+}
+
+.pg-overlay span {
+  font-size: 0.54rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--grey-1);
+}
+
+.pg-item.hidden {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .photo-filters {
+    padding: 0 32px;
+  }
+  .photo-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 220px;
+  }
+  .pg-item.large {
+    grid-column: span 1;
+  }
+}
+@media (max-width: 640px) {
+  .photo-filters {
+    padding: 0 20px;
+  }
+  .photo-grid {
+    grid-template-columns: 1fr; 
+    grid-auto-rows: 200px;
+  }
+  .pg-item.tall {
+    grid-row: span 1;
+  }
+}

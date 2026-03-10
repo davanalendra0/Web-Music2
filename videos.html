@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Videos — Stellar Divide</title>
+  <link rel="icon" type="image/jpg" href="icon-music.png">
+  <link rel="stylesheet" href="global.css" />
+  <link rel="stylesheet" href="videos.css" />
+</head>
+<body>
+  <header id="site-header"></header>
+
+  <div class="page-header">
+    <div class="grain"></div>
+    <p class="eyebrow">Watch</p>
+    <h1>Videos</h1>
+  </div>
+
+  <main id="videos-main">
+    <div class="vid-filters">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="official">Official Videos</button>
+      <button class="filter-btn" data-filter="live">Live</button>
+      <button class="filter-btn" data-filter="lyric">Lyric Videos</button>
+      <button class="filter-btn" data-filter="behind">Behind the Scenes</button>
+    </div>
+
+    <!-- Featured video -->
+    <div class="vid-hero reveal" data-category="official">
+      <div class="vh-thumb">
+        <div class="vh-bg vbg-1"></div>
+        <div class="vh-overlay"></div>
+        <button class="play-btn large" aria-label="Play">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="12" cy="12" r="11" stroke="white" stroke-width="1"/>
+            <polygon points="10,8 18,12 10,16" fill="white"/>
+          </svg>
+        </button>
+        <div class="vh-label">
+          <span class="vid-type-tag">Official Music Video</span>
+          <h2>Event Horizon</h2>
+          <p>Directed by Ivan Kolosov · 2025</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Video grid -->
+    <div class="vid-grid">
+      <div class="vid-card reveal" data-category="live">
+        <div class="vc-thumb"><div class="vbg-2"></div><button class="play-btn" aria-label="Play"><svg viewBox="0 0 24 24" fill="none"><polygon points="8,6 20,12 8,18" fill="white"/></svg></button></div>
+        <div class="vc-body"><span class="vid-type-tag">Live</span><h3>Dark Parallels — Live at Brixton</h3><p>O2 Brixton Academy, London · 2023</p></div>
+      </div>
+      <div class="vid-card reveal" data-category="lyric">
+        <div class="vc-thumb"><div class="vbg-3"></div><button class="play-btn" aria-label="Play"><svg viewBox="0 0 24 24" fill="none"><polygon points="8,6 20,12 8,18" fill="white"/></svg></button></div>
+        <div class="vc-body"><span class="vid-type-tag">Lyric Video</span><h3>The Collapse — Official Lyric Video</h3><p>Stellar Divide · 2025</p></div>
+      </div>
+      <div class="vid-card reveal" data-category="behind">
+        <div class="vc-thumb"><div class="vbg-4"></div><button class="play-btn" aria-label="Play"><svg viewBox="0 0 24 24" fill="none"><polygon points="8,6 20,12 8,18" fill="white"/></svg></button></div>
+        <div class="vc-body"><span class="vid-type-tag">Behind the Scenes</span><h3>Making of Event Horizon — Studio Documentary</h3><p>Stellar Divide · 2025</p></div>
+      </div>
+      <div class="vid-card reveal" data-category="official">
+        <div class="vc-thumb"><div class="vbg-1"></div><button class="play-btn" aria-label="Play"><svg viewBox="0 0 24 24" fill="none"><polygon points="8,6 20,12 8,18" fill="white"/></svg></button></div>
+        <div class="vc-body"><span class="vid-type-tag">Official Music Video</span><h3>Dark Parallels — Official Video</h3><p>Directed by Mia Sørensen · 2021</p></div>
+      </div>
+      <div class="vid-card reveal" data-category="live">
+        <div class="vc-thumb"><div class="vbg-2"></div><button class="play-btn" aria-label="Play"><svg viewBox="0 0 24 24" fill="none"><polygon points="8,6 20,12 8,18" fill="white"/></svg></button></div>
+        <div class="vc-body"><span class="vid-type-tag">Live</span><h3>Static Cathedral — Full Show, Paradiso</h3><p>Amsterdam · 2019</p></div>
+      </div>
+      <div class="vid-card reveal" data-category="lyric">
+        <div class="vc-thumb"><div class="vbg-3"></div><button class="play-btn" aria-label="Play"><svg viewBox="0 0 24 24" fill="none"><polygon points="8,6 20,12 8,18" fill="white"/></svg></button></div>
+        <div class="vc-body"><span class="vid-type-tag">Lyric Video</span><h3>Afterimage — Lyric Video</h3><p>Stellar Divide · 2021</p></div>
+      </div>
+    </div>
+  </main>
+
+  <footer id="site-footer"></footer>
+  <script src="layout.js"></script>
+  <script src="videos.js"></script>
+</body>
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>News — Stellar Divide</title>
+  <link rel="icon" type="image/jpg" href="icon-music.png">
+  <link rel="stylesheet" href="global.css" />
+  <link rel="stylesheet" href="news.css" />
+</head>
+<body>
+
+  <header id="site-header"></header>
+
+  <div class="page-header">
+    <div class="grain"></div>
+    <p class="eyebrow">Latest Updates</p>
+    <h1>News</h1>
+  </div>
+
+  <main id="news-main">
+
+    <!-- Filter bar -->
+    <div class="news-filters">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="release">Releases</button>
+      <button class="filter-btn" data-filter="tour">Tour</button>
+      <button class="filter-btn" data-filter="video">Videos</button>
+      <button class="filter-btn" data-filter="studio">Studio</button>
+    </div>
+
+    <!-- Featured article -->
+    <article class="news-hero reveal" data-category="release">
+      <div class="nh-art">
+        <div class="nh-art-inner">
+          <div class="nh-art-bg"></div>
+          <div class="nh-art-geo">
+            <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <polygon points="50,5 95,80 5,80" stroke="white" stroke-width="1.2"/>
+              <polygon points="50,18 82,73 18,73" stroke="white" stroke-width="0.8"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="nh-body">
+        <div class="nh-meta">
+          <span class="news-type">Album Release</span>
+          <span class="news-date">February 28, 2025</span>
+        </div>
+        <h2 class="nh-title">"Event Horizon" — The New Album Is Here</h2>
+        <p class="nh-excerpt">Twelve tracks of shattered light and controlled chaos. Recorded across eighteen months in two countries with producer Yoshi Nakamura, it's the most ambitious record we've ever made — and the most honest. Available on all streaming platforms and as a limited edition vinyl.</p>
+        <a href="#" class="btn btn-white" style="margin-top: 24px; display: inline-block;">Stream Now</a>
+      </div>
+    </article>
+
+    <!-- News grid -->
+    <div class="news-grid">
+
+      <article class="news-card reveal" data-category="release">
+        <div class="nc-art style-2"></div>
+        <div class="nc-body">
+          <div class="nc-meta">
+            <span class="news-type">Single</span>
+            <span class="news-date">Mar 1, 2025</span>
+          </div>
+          <h3 class="nc-title">"The Collapse" — New Single</h3>
+          <p class="nc-excerpt">The second single from Event Horizon. Raw, relentless — three minutes of pure intention.</p>
+          <a href="#" class="nc-link">Read More →</a>
+        </div>
+      </article>
+
+      <article class="news-card reveal" data-category="video">
+        <div class="nc-art style-3"></div>
+        <div class="nc-body">
+          <div class="nc-meta">
+            <span class="news-type">Music Video</span>
+            <span class="news-date">Feb 14, 2025</span>
+          </div>
+          <h3 class="nc-title">Official Video: "Event Horizon"</h3>
+          <p class="nc-excerpt">Directed by Ivan Kolosov. Shot over five nights in the Atacama Desert.</p>
+          <a href="videos.html" class="nc-link">Watch Now →</a>
+        </div>
+      </article>
+
+      <article class="news-card reveal" data-category="tour">
+        <div class="nc-art style-4"></div>
+        <div class="nc-body">
+          <div class="nc-meta">
+            <span class="news-type">Tour</span>
+            <span class="news-date">Jan 28, 2025</span>
+          </div>
+          <h3 class="nc-title">World Tour 2025 — All Dates Announced</h3>
+          <p class="nc-excerpt">Europe in April–May. North America in June–July. Tickets on sale Friday.</p>
+          <a href="tour.html" class="nc-link">See Dates →</a>
+        </div>
+      </article>
+
+      <article class="news-card reveal" data-category="studio">
+        <div class="nc-art style-1"></div>
+        <div class="nc-body">
+          <div class="nc-meta">
+            <span class="news-type">Studio</span>
+            <span class="news-date">Dec 12, 2024</span>
+          </div>
+          <h3 class="nc-title">Inside "Event Horizon" — Studio Diary</h3>
+          <p class="nc-excerpt">Eighteen months. Two countries. One record that nearly broke us, then put us back together.</p>
+          <a href="#" class="nc-link">Read More →</a>
+        </div>
+      </article>
+
+      <article class="news-card reveal" data-category="release">
+        <div class="nc-art style-2"></div>
+        <div class="nc-body">
+          <div class="nc-meta">
+            <span class="news-type">Single</span>
+            <span class="news-date">Nov 5, 2024</span>
+          </div>
+          <h3 class="nc-title">"Event Horizon" — Lead Single</h3>
+          <p class="nc-excerpt">The first taste of the new album. A four-minute descent into controlled fury.</p>
+          <a href="#" class="nc-link">Stream →</a>
+        </div>
+      </article>
+
+      <article class="news-card reveal" data-category="studio">
+        <div class="nc-art style-3"></div>
+        <div class="nc-body">
+          <div class="nc-meta">
+            <span class="news-type">Statement</span>
+            <span class="news-date">Sep 18, 2024</span>
+          </div>
+          <h3 class="nc-title">New Album Announcement — "Event Horizon" 2025</h3>
+          <p class="nc-excerpt">We've been in the dark for a long time. Now we're ready. New album coming February 28.</p>
+          <a href="#" class="nc-link">Read More →</a>
+        </div>
+      </article>
+
+    </div>
+
+    <div class="news-load">
+      <button class="btn btn-outline" id="load-more">Load More</button>
+    </div>
+
+  </main>
+
+  <footer id="site-footer"></footer>
+
+  <script src="layout.js"></script>
+  <script src="news.js"></script>
+</body>
+</html>

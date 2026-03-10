@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Forum — Stellar Divide</title>
+  <link rel="icon" type="image/jpg" href="icon-music.png">
+  <link rel="stylesheet" href="global.css" />
+  <link rel="stylesheet" href="forum.css" />
+</head>
+<body>
+  <header id="site-header"></header>
+  <div class="page-header">
+    <div class="grain"></div>
+    <p class="eyebrow">Community</p>
+    <h1>Forum</h1>
+  </div>
+  <main id="forum-main">
+    <div class="forum-bar">
+      <p>Join the conversation. <a href="members.html">Become a member</a> to post.</p>
+      <button class="btn btn-white" id="new-thread-btn">+ New Thread</button>
+    </div>
+
+    <div class="forum-layout">
+      <!-- Categories sidebar -->
+      <aside class="forum-aside">
+        <div class="fa-section">
+          <h3>Categories</h3>
+          <ul>
+            <li class="active"><a href="#">All Posts</a><span>218</span></li>
+            <li><a href="#">Event Horizon</a><span>84</span></li>
+            <li><a href="#">Tour Talk</a><span>55</span></li>
+            <li><a href="#">Music Discussion</a><span>42</span></li>
+            <li><a href="#">General Chat</a><span>37</span></li>
+          </ul>
+        </div>
+        <div class="fa-section">
+          <h3>Active Members</h3>
+          <ul class="members-list">
+            <li><span class="am-dot"></span>nora_k</li>
+            <li><span class="am-dot"></span>staticwave99</li>
+            <li><span class="am-dot"></span>parallel_m</li>
+            <li><span class="am-dot"></span>collapsecore</li>
+          </ul>
+        </div>
+      </aside>
+
+      <!-- Thread list -->
+      <div class="forum-threads">
+        <div class="thread-row reveal pinned">
+          <div class="tr-icon pinned-icon">📌</div>
+          <div class="tr-body">
+            <div class="tr-top">
+              <span class="tr-category">Announcement</span>
+              <span class="tr-tag pinned">Pinned</span>
+            </div>
+            <h3 class="tr-title"><a href="#">OFFICIAL — Event Horizon Track-by-Track Discussion</a></h3>
+            <div class="tr-meta"><span>by SD_Official</span><span>Feb 28, 2025</span></div>
+          </div>
+          <div class="tr-stats"><span>214 replies</span><span>1.2k views</span></div>
+        </div>
+
+        <div class="thread-row reveal">
+          <div class="tr-icon">💬</div>
+          <div class="tr-body">
+            <div class="tr-top"><span class="tr-category">Event Horizon</span></div>
+            <h3 class="tr-title"><a href="#">What does "Signal / Noise" mean to you? Deep dive into track 04</a></h3>
+            <div class="tr-meta"><span>by collapsecore</span><span>Mar 3, 2025</span></div>
+          </div>
+          <div class="tr-stats"><span>38 replies</span><span>502 views</span></div>
+        </div>
+
+        <div class="thread-row reveal">
+          <div class="tr-icon">🎟️</div>
+          <div class="tr-body">
+            <div class="tr-top"><span class="tr-category">Tour Talk</span></div>
+            <h3 class="tr-title"><a href="#">Anyone going to Berlin on May 3rd? Ticket swap thread</a></h3>
+            <div class="tr-meta"><span>by staticwave99</span><span>Mar 1, 2025</span></div>
+          </div>
+          <div class="tr-stats"><span>22 replies</span><span>310 views</span></div>
+        </div>
+
+        <div class="thread-row reveal">
+          <div class="tr-icon">💬</div>
+          <div class="tr-body">
+            <div class="tr-top"><span class="tr-category">Music Discussion</span></div>
+            <h3 class="tr-title"><a href="#">Ranking all three albums — where does Event Horizon sit for you?</a></h3>
+            <div class="tr-meta"><span>by nora_k</span><span>Mar 2, 2025</span></div>
+          </div>
+          <div class="tr-stats"><span>61 replies</span><span>889 views</span></div>
+        </div>
+
+        <div class="thread-row reveal">
+          <div class="tr-icon">🎸</div>
+          <div class="tr-body">
+            <div class="tr-top"><span class="tr-category">Music Discussion</span></div>
+            <h3 class="tr-title"><a href="#">Noa's guitar tone on Gravity Well — what rig is she using?</a></h3>
+            <div class="tr-meta"><span>by parallel_m</span><span>Feb 28, 2025</span></div>
+          </div>
+          <div class="tr-stats"><span>19 replies</span><span>420 views</span></div>
+        </div>
+
+        <div class="thread-row reveal">
+          <div class="tr-icon">💬</div>
+          <div class="tr-body">
+            <div class="tr-top"><span class="tr-category">General Chat</span></div>
+            <h3 class="tr-title"><a href="#">First time listener — where should I start?</a></h3>
+            <div class="tr-meta"><span>by new_horizon_fan</span><span>Mar 4, 2025</span></div>
+          </div>
+          <div class="tr-stats"><span>14 replies</span><span>280 views</span></div>
+        </div>
+
+        <div class="thread-row reveal">
+          <div class="tr-icon">🎟️</div>
+          <div class="tr-body">
+            <div class="tr-top"><span class="tr-category">Tour Talk</span></div>
+            <h3 class="tr-title"><a href="#">Brixton setlist megathread — report back here after the show!</a></h3>
+            <div class="tr-meta"><span>by collapsecore</span><span>Mar 5, 2025</span></div>
+          </div>
+          <div class="tr-stats"><span>7 replies</span><span>198 views</span></div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer id="site-footer"></footer>
+  <script src="layout.js"></script>
+  <script src="forum.js"></script>
+</body>
+</html>
