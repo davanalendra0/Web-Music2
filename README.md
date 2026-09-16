@@ -1,28 +1,28 @@
-<h2>🎓 Informasi Proyek</h2>
-<p>Proyek ini adalah website resmi untuk Stellar Divide, sebuah grup band dengan identitas visual yang kuat. Website ini dirancang sebagai platform pusat bagi penggemar untuk mengakses berita terbaru, karya musik, jadwal tur, dan konten eksklusif lainnya dengan antarmuka yang modern.</p>
+<h2>🎓 Project Overview</h2>
+<p>This project is the official website for Stellar Divide, a music band with a strong visual identity. Designed as a centralized platform for fans, the website delivers the latest news, discography, tour schedules, and exclusive content through a modern, immersive user interface.</p>
 <br>
-<h2>🚀 Fitur dan Bagian Utama</h2>
+<h2>🚀 Key Features & Sections</h2>
 <ul>
-<li>Hero Section : Tampilan utama yang berani dengan tipografi besar dan slogan band.</li>
-<li>Members : Menampilkan daftar personil grup band lengkap dengan deskripsi masing-masing.</li>
-<li>Karya : Bagian yang menampilkan daftar karya musik atau album yang telah dirilis oleh grup tersebut.</li>
-<li>Tour & Events : Bagian khusus untuk melihat jadwal tur agar penggemar tetap terhubung dengan jadwal panggung band.</li>
-<li>Navigasi Responsif : Menu navigasi yang memudahkan pengunjung berpindah antar bagian halaman dengan mulus.</li>
+<li>Hero Section : A bold landing area featuring striking typography and the band's signature slogan.</li>
+<li>Members : A dedicated section highlighting each member's profile and role within the group.</li>
+<li>Music : Features released albums, tracks, and musical projects in a clean layout.</li>
+<li>Tour & Events : A dedicated tour schedule section keeping fans updated on upcoming live shows and event dates.</li>
+<li>Responsive Navigation : Smooth and intuitive navigation ensuring a seamless experience across all screen sizes.</li>
 </ul>
 <br>
-<h2>⚙️ Teknologi yang Digunakan</h2>
-<p>Proyek ini dibangun dengan fokus pada performa tinggi dan desain visual yang elegan :</p>
+<h2>⚙️ Tech Stack & Implementation</h2>
+<p>Built with an emphasis on high performance, strong visual impact, and smooth responsiveness :</p>
 <ul>
-<li>HTML5 : Untuk struktur halaman yang kompleks dan pengorganisasian konten media.</li>
-<li>CSS3 : Untuk styling bertema gelap (Dark Theme), tata letak responsif, dan tipografi kustom yang memberikan kesan profesional.</li>
-<li>JavaScript : Untuk mengelola elemen interaktif, navigasi dinamis, dan fitur fungsional lainnya.</li>
-<li>Deployment : Platform hosting yang digunakan adalah Vercel untuk penerapan cepat dan integrasi Git.</li>
+<li>HTML5 : Provides a solid structural foundation for media content and complex page sections.</li>
+<li>CSS3 : Custom styling featuring a dark theme, modern layout systems, and custom typography for a high-end visual feel.</li>
+<li>JavaScript : Powers dynamic navigation, interactive elements, and modern UI behaviors.</li>
+<li>Vercel : Utilized for fast continuous deployment and seamless Git integration.</li>
 </ul>
 <br>
-<h2>🤝 Kontak</h2>
-<p>Jika Anda memiliki pertanyaan, saran, atau peluang kerja sama, jangan ragu untuk menghubungi saya.</p>
+<h2>🤝 Contact & Collaboration</h2>
+<p>If you have any questions, feedback, or potential collaboration opportunities, feel free to reach out!</p>
 <ul>
-<li>Nama: Dava Nalendra</li>
+<li>Name: Dava Nalendra</li>
 <li>Email: davanalendra2@gmail.com</li>
 </ul>
 <br>
